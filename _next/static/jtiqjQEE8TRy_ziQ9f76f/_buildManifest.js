@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/WAMA.ai//_next/:path+",
+        "destination": "/WAMA.ai/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
