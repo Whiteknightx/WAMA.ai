@@ -1,0 +1,146 @@
+[
+  {
+    "id": "image",
+    "name": "Image",
+    "slug": "image",
+    "icon": "🖼️",
+    "description": "AI tools for generating, editing, and enhancing images — from concept art to photorealistic renders.",
+    "toolCount": 8,
+    "color": "#ff6b9d"
+  },
+  {
+    "id": "video",
+    "name": "Video",
+    "slug": "video",
+    "icon": "🎬",
+    "description": "AI-powered video generation, editing, and effects tools for creators and professionals.",
+    "toolCount": 4,
+    "color": "#c084fc"
+  },
+  {
+    "id": "audio",
+    "name": "Audio",
+    "slug": "audio",
+    "icon": "🔊",
+    "description": "AI audio processing, enhancement, and generation tools including speech and sound effects.",
+    "toolCount": 2,
+    "color": "#34d399"
+  },
+  {
+    "id": "music",
+    "name": "Music",
+    "slug": "music",
+    "icon": "🎵",
+    "description": "AI music composition, production, and songwriting tools that create original tracks.",
+    "toolCount": 1,
+    "color": "#f472b6"
+  },
+  {
+    "id": "3d",
+    "name": "3D",
+    "slug": "3d",
+    "icon": "🧊",
+    "description": "AI-powered 3D model generation, texturing, and scene creation for games, AR/VR, and design.",
+    "toolCount": 1,
+    "color": "#60a5fa"
+  },
+  {
+    "id": "text",
+    "name": "Text",
+    "slug": "text",
+    "icon": "📝",
+    "description": "Large language models and text generation AI for conversation, analysis, and creation.",
+    "toolCount": 4,
+    "color": "#fbbf24"
+  },
+  {
+    "id": "writing",
+    "name": "Writing",
+    "slug": "writing",
+    "icon": "✍️",
+    "description": "AI writing assistants for content creation, editing, copywriting, and document generation.",
+    "toolCount": 2,
+    "color": "#fb923c"
+  },
+  {
+    "id": "coding",
+    "name": "Coding",
+    "slug": "coding",
+    "icon": "💻",
+    "description": "AI code generation, completion, debugging, and development tools for programmers.",
+    "toolCount": 7,
+    "color": "#22d3ee"
+  },
+  {
+    "id": "research",
+    "name": "Research",
+    "slug": "research",
+    "icon": "🔬",
+    "description": "AI-powered research tools with citations, web search, and academic paper analysis.",
+    "toolCount": 2,
+    "color": "#a78bfa"
+  },
+  {
+    "id": "search",
+    "name": "Search",
+    "slug": "search",
+    "icon": "🔍",
+    "description": "AI-enhanced search engines that understand intent and provide comprehensive answers.",
+    "toolCount": 1,
+    "color": "#2dd4bf"
+  },
+  {
+    "id": "voice",
+    "name": "Voice",
+    "slug": "voice",
+    "icon": "🎙️",
+    "description": "AI voice synthesis, cloning, text-to-speech, and voice transformation tools.",
+    "toolCount": 1,
+    "color": "#e879f9"
+  },
+  {
+    "id": "design",
+    "name": "Design",
+    "slug": "design",
+    "icon": "🎨",
+    "description": "AI design tools for UI/UX, graphic design, branding, and visual content creation.",
+    "toolCount": 2,
+    "color": "#f87171"
+  },
+  {
+    "id": "presentation",
+    "name": "Presentation",
+    "slug": "presentation",
+    "icon": "📊",
+    "description": "AI presentation generators that create professional slides and pitch decks.",
+    "toolCount": 1,
+    "color": "#4ade80"
+  },
+  {
+    "id": "automation",
+    "name": "Automation",
+    "slug": "automation",
+    "icon": "⚡",
+    "description": "AI workflow automation, task orchestration, and process optimization tools.",
+    "toolCount": 2,
+    "color": "#facc15"
+  },
+  {
+    "id": "agents",
+    "name": "Agents",
+    "slug": "agents",
+    "icon": "🤖",
+    "description": "Autonomous AI agents that can plan, execute, and iterate on complex multi-step tasks.",
+    "toolCount": 3,
+    "color": "#06b6d4"
+  },
+  {
+    "id": "productivity",
+    "name": "Productivity",
+    "slug": "productivity",
+    "icon": "📋",
+    "description": "AI productivity tools for note-taking, project management, and workspace optimization.",
+    "toolCount": 1,
+    "color": "#818cf8"
+  }
+]

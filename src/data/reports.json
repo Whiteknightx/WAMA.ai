@@ -1,0 +1,74 @@
+[
+  {
+    "id": "report-1",
+    "title": "AI for Game Developers — August 2026",
+    "slug": "ai-game-developers-august-2026",
+    "summary": "Comprehensive overview of 183 AI tools available for game development, covering programming, art, audio, design, and marketing.",
+    "date": "2026-08-01",
+    "category": "game-development",
+    "profession": "game-developer",
+    "tags": ["gamedev", "monthly", "comprehensive"],
+    "readTime": "15 min",
+    "sections": ["Executive Summary", "New Tools", "Major Updates", "Best Tools", "Best Free Tools", "Recommendations"]
+  },
+  {
+    "id": "report-2",
+    "title": "50 AI Tools for YouTubers",
+    "slug": "50-ai-tools-for-youtubers",
+    "summary": "Curated list of the best AI tools for YouTube creators — from video generation and editing to thumbnails, music, and analytics.",
+    "date": "2026-07-25",
+    "category": "content-creation",
+    "profession": "youtuber",
+    "tags": ["youtube", "curated", "tools"],
+    "readTime": "20 min",
+    "sections": ["Video Generation", "Audio & Voice", "Thumbnails", "Music", "Analytics", "Free Tools"]
+  },
+  {
+    "id": "report-3",
+    "title": "Best AI Coding Tools — 2026 Edition",
+    "slug": "best-ai-coding-tools-2026",
+    "summary": "In-depth comparison of every major AI coding tool — Cursor, Copilot, Claude Code, Windsurf, Devin, and more.",
+    "date": "2026-07-15",
+    "category": "coding",
+    "profession": "programmer",
+    "tags": ["coding", "comparison", "in-depth"],
+    "readTime": "25 min",
+    "sections": ["The Landscape", "IDE Tools", "AI Agents", "Code Completion", "Best For Teams", "Our Picks"]
+  },
+  {
+    "id": "report-4",
+    "title": "AI Video Generation Landscape",
+    "slug": "ai-video-generation-landscape",
+    "summary": "The state of AI video generation in 2026 — comparing Runway, Kling, Pika, Luma, and emerging competitors.",
+    "date": "2026-07-01",
+    "category": "video",
+    "profession": null,
+    "tags": ["video", "landscape", "comparison"],
+    "readTime": "18 min",
+    "sections": ["Market Overview", "Quality Comparison", "Pricing Analysis", "Best For Each Use Case", "What's Coming Next"]
+  },
+  {
+    "id": "report-5",
+    "title": "AI Tools for Small Businesses",
+    "slug": "ai-tools-small-businesses",
+    "summary": "Practical guide to AI tools that small businesses can use today — focusing on value, ease of use, and real ROI.",
+    "date": "2026-06-20",
+    "category": "business",
+    "profession": "business-owner",
+    "tags": ["business", "practical", "roi"],
+    "readTime": "12 min",
+    "sections": ["Why AI Now", "Best Free Tools", "Best Paid Tools", "Marketing", "Operations", "Getting Started"]
+  },
+  {
+    "id": "report-6",
+    "title": "AI Image Generation: Mid-2026 State of the Art",
+    "slug": "ai-image-generation-mid-2026",
+    "summary": "Comprehensive comparison of every major AI image generator — Midjourney V7, Flux 1.2, DALL·E, Stable Diffusion 3.5, and Ideogram 3.",
+    "date": "2026-06-10",
+    "category": "image",
+    "profession": null,
+    "tags": ["image", "state-of-the-art", "comparison"],
+    "readTime": "22 min",
+    "sections": ["Quality Rankings", "Speed Test", "Pricing Comparison", "Best For Each Task", "Open Source Options", "Verdict"]
+  }
+]

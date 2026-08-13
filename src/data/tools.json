@@ -1,0 +1,2098 @@
+[
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "slug": "midjourney",
+    "url": "https://midjourney.com",
+    "description": "AI image generation platform known for its artistic, high-quality outputs and creative control.",
+    "shortDescription": "Premium AI image generation with artistic flair",
+    "type": "AI Tool",
+    "categories": ["image"],
+    "professions": ["game-developer", "designer", "artist", "youtuber", "marketer"],
+    "tasks": ["concept-art", "character-design", "marketing-artwork", "social-media"],
+    "capabilities": {
+      "textToImage": true,
+      "imageToImage": true,
+      "characterConsistency": "partial",
+      "videoGeneration": false,
+      "batchGeneration": true,
+      "api": true,
+      "commercialUsage": true,
+      "localGeneration": false,
+      "inpainting": true,
+      "outpainting": true
+    },
+    "pricing": {
+      "model": "paid",
+      "freeTier": false,
+      "plans": [
+        { "name": "Basic", "price": 10, "period": "month" },
+        { "name": "Standard", "price": 30, "period": "month" },
+        { "name": "Pro", "price": 60, "period": "month" },
+        { "name": "Mega", "price": 120, "period": "month" }
+      ],
+      "hasFreeTrial": false,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": true
+    },
+    "evaluation": {
+      "radarScore": 93,
+      "capability": 95,
+      "quality": 97,
+      "easeOfUse": 88,
+      "value": 82,
+      "reliability": 94,
+      "workflowFit": 91,
+      "innovation": 95
+    },
+    "platforms": ["web"],
+    "released": "2022-07-12",
+    "lastUpdated": "2026-08-10",
+    "openSource": false,
+    "tags": ["image-generation", "art", "creative", "professional", "commercial-use"],
+    "pros": [
+      "Industry-leading image quality and aesthetics",
+      "Strong artistic style control",
+      "Active community and prompt sharing",
+      "Fast generation times",
+      "Consistent updates with new features"
+    ],
+    "cons": [
+      "No free tier available",
+      "Discord-based workflow can be unintuitive",
+      "Limited editing capabilities compared to competitors",
+      "No local/offline mode"
+    ],
+    "useCases": [
+      { "name": "Game Concept Art", "rating": 5 },
+      { "name": "Character Exploration", "rating": 5 },
+      { "name": "Environment Concepts", "rating": 5 },
+      { "name": "Texture Generation", "rating": 3 },
+      { "name": "Marketing Artwork", "rating": 4 }
+    ],
+    "bestFor": ["Concept Artists", "Game Developers", "Content Creators", "Designers"],
+    "history": [
+      { "date": "2026-08-10", "event": "V7 released with improved coherence" },
+      { "date": "2026-06-15", "event": "Web editor launched" },
+      { "date": "2026-03-01", "event": "API opened to all plans" },
+      { "date": "2025-12-10", "event": "V6.1 with style references" },
+      { "date": "2022-07-12", "event": "Public beta launched" }
+    ],
+    "alternatives": ["flux-pro", "dall-e-3", "stable-diffusion", "ideogram"],
+    "tested": true,
+    "featured": true,
+    "trending": true,
+    "trendingChange": 12
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "slug": "cursor",
+    "url": "https://cursor.sh",
+    "description": "AI-first code editor built on VS Code with deep AI integration for code generation, editing, and understanding.",
+    "shortDescription": "AI-powered code editor with deep codebase understanding",
+    "type": "AI Tool",
+    "categories": ["coding"],
+    "professions": ["programmer", "game-developer", "engineer"],
+    "tasks": ["programming", "debugging", "code-review", "refactoring"],
+    "capabilities": {
+      "codeGeneration": true,
+      "codeCompletion": true,
+      "codeExplanation": true,
+      "debugging": true,
+      "multiFile": true,
+      "codebaseContext": true,
+      "terminalIntegration": true,
+      "api": false,
+      "localGeneration": false
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Hobby", "price": 0, "period": "month" },
+        { "name": "Pro", "price": 20, "period": "month" },
+        { "name": "Business", "price": 40, "period": "month" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": false
+    },
+    "evaluation": {
+      "radarScore": 95,
+      "capability": 96,
+      "quality": 94,
+      "easeOfUse": 97,
+      "value": 93,
+      "reliability": 92,
+      "workflowFit": 98,
+      "innovation": 96
+    },
+    "platforms": ["windows", "macos", "linux"],
+    "released": "2023-03-14",
+    "lastUpdated": "2026-08-12",
+    "openSource": false,
+    "tags": ["coding", "ide", "developer-tools", "ai-assistant", "productivity"],
+    "pros": [
+      "Deep codebase understanding across large projects",
+      "Natural language code editing",
+      "Familiar VS Code interface",
+      "Multi-model support (GPT-4, Claude, etc.)",
+      "Excellent tab completion"
+    ],
+    "cons": [
+      "Requires internet connection for AI features",
+      "Can be resource-intensive on large projects",
+      "Free tier has limited AI requests",
+      "Privacy concerns with code being sent to cloud"
+    ],
+    "useCases": [
+      { "name": "Full-Stack Development", "rating": 5 },
+      { "name": "Bug Fixing", "rating": 5 },
+      { "name": "Code Refactoring", "rating": 4 },
+      { "name": "Learning New Languages", "rating": 4 },
+      { "name": "Rapid Prototyping", "rating": 5 }
+    ],
+    "bestFor": ["Full-Stack Developers", "Indie Developers", "Startups", "Students"],
+    "history": [
+      { "date": "2026-08-12", "event": "Background agents launched" },
+      { "date": "2026-07-01", "event": "Bug finder feature added" },
+      { "date": "2026-05-15", "event": "Multi-file editing improved" },
+      { "date": "2026-02-20", "event": "Custom model support added" },
+      { "date": "2023-03-14", "event": "Public launch" }
+    ],
+    "alternatives": ["github-copilot", "windsurf", "zed", "claude-code"],
+    "tested": true,
+    "featured": true,
+    "trending": true,
+    "trendingChange": 45
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "slug": "suno",
+    "url": "https://suno.ai",
+    "description": "AI music generation platform that creates full songs with vocals, instruments, and lyrics from text prompts.",
+    "shortDescription": "Generate full songs with AI — vocals, instruments, and lyrics",
+    "type": "AI Tool",
+    "categories": ["music", "audio"],
+    "professions": ["musician", "youtuber", "game-developer", "marketer"],
+    "tasks": ["music-production", "background-music", "jingles", "soundtrack"],
+    "capabilities": {
+      "textToMusic": true,
+      "vocals": true,
+      "instrumentalOnly": true,
+      "customLyrics": true,
+      "stemSeparation": true,
+      "api": true,
+      "commercialUsage": true,
+      "localGeneration": false
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Pro", "price": 10, "period": "month" },
+        { "name": "Premier", "price": 30, "period": "month" }
+      ],
+      "hasFreeTrial": false,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": true
+    },
+    "evaluation": {
+      "radarScore": 89,
+      "capability": 92,
+      "quality": 88,
+      "easeOfUse": 95,
+      "value": 90,
+      "reliability": 85,
+      "workflowFit": 82,
+      "innovation": 94
+    },
+    "platforms": ["web", "ios", "android"],
+    "released": "2023-09-20",
+    "lastUpdated": "2026-08-05",
+    "openSource": false,
+    "tags": ["music", "audio", "creative", "vocals", "songwriting"],
+    "pros": [
+      "Impressive vocal quality across genres",
+      "Full song generation from simple prompts",
+      "Generous free tier",
+      "Wide genre coverage",
+      "Custom lyrics support"
+    ],
+    "cons": [
+      "Song structure can be repetitive",
+      "Limited fine-grained control over arrangement",
+      "Audio quality not studio-grade",
+      "Can struggle with complex musical theory"
+    ],
+    "useCases": [
+      { "name": "YouTube Background Music", "rating": 4 },
+      { "name": "Game Soundtracks", "rating": 3 },
+      { "name": "Podcast Intros", "rating": 5 },
+      { "name": "Social Media Content", "rating": 4 },
+      { "name": "Prototyping Songs", "rating": 5 }
+    ],
+    "bestFor": ["Content Creators", "Indie Game Devs", "Podcasters", "Musicians"],
+    "history": [
+      { "date": "2026-08-05", "event": "V4 model released with improved vocals" },
+      { "date": "2026-06-01", "event": "Stem separation added" },
+      { "date": "2026-03-15", "event": "API launched" },
+      { "date": "2025-11-20", "event": "V3.5 with extended song length" },
+      { "date": "2023-09-20", "event": "Public launch" }
+    ],
+    "alternatives": ["udio", "soundraw", "aiva"],
+    "tested": true,
+    "featured": false,
+    "trending": false,
+    "trendingChange": 8
+  },
+  {
+    "id": "runway-gen3",
+    "name": "Runway Gen-3",
+    "slug": "runway-gen3",
+    "url": "https://runwayml.com",
+    "description": "Professional AI video generation and editing platform with industry-leading text-to-video and image-to-video capabilities.",
+    "shortDescription": "Professional AI video generation and editing suite",
+    "type": "AI Platform",
+    "categories": ["video", "image"],
+    "professions": ["youtuber", "designer", "marketer", "game-developer"],
+    "tasks": ["video-production", "motion-graphics", "vfx", "content-creation"],
+    "capabilities": {
+      "textToVideo": true,
+      "imageToVideo": true,
+      "videoEditing": true,
+      "motionBrush": true,
+      "greenScreen": true,
+      "inpainting": true,
+      "api": true,
+      "commercialUsage": true,
+      "localGeneration": false
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Standard", "price": 12, "period": "month" },
+        { "name": "Pro", "price": 28, "period": "month" },
+        { "name": "Unlimited", "price": 76, "period": "month" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": true,
+      "commercialRights": true,
+      "apiPricing": true
+    },
+    "evaluation": {
+      "radarScore": 91,
+      "capability": 94,
+      "quality": 91,
+      "easeOfUse": 90,
+      "value": 84,
+      "reliability": 89,
+      "workflowFit": 93,
+      "innovation": 95
+    },
+    "platforms": ["web"],
+    "released": "2024-06-17",
+    "lastUpdated": "2026-08-08",
+    "openSource": false,
+    "tags": ["video-generation", "vfx", "creative", "professional", "api"],
+    "pros": [
+      "Best-in-class video generation quality",
+      "Comprehensive editing suite",
+      "Motion Brush for precise control",
+      "Professional API for integration",
+      "Regular model improvements"
+    ],
+    "cons": [
+      "Expensive at scale",
+      "Free tier is very limited",
+      "Generation times can be long",
+      "Watermark on free plan"
+    ],
+    "useCases": [
+      { "name": "Short-Form Content", "rating": 5 },
+      { "name": "Music Videos", "rating": 4 },
+      { "name": "Product Demos", "rating": 4 },
+      { "name": "Film VFX", "rating": 3 },
+      { "name": "Social Media Ads", "rating": 5 }
+    ],
+    "bestFor": ["Video Producers", "Content Creators", "Marketers", "VFX Artists"],
+    "history": [
+      { "date": "2026-08-08", "event": "Gen-3 Alpha Turbo improvements" },
+      { "date": "2026-05-20", "event": "4K output support added" },
+      { "date": "2026-02-10", "event": "Motion Brush V2 released" },
+      { "date": "2025-09-05", "event": "Gen-3 full release" },
+      { "date": "2024-06-17", "event": "Gen-3 Alpha launched" }
+    ],
+    "alternatives": ["kling-ai", "pika", "luma-dream-machine"],
+    "tested": true,
+    "featured": true,
+    "trending": false,
+    "trendingChange": 5
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "slug": "claude",
+    "url": "https://claude.ai",
+    "description": "Anthropic's conversational AI assistant known for nuanced reasoning, long context windows, and strong coding abilities.",
+    "shortDescription": "Advanced AI assistant with exceptional reasoning and coding",
+    "type": "AI Model",
+    "categories": ["text", "coding", "research", "writing"],
+    "professions": ["programmer", "researcher", "writer", "student", "business-owner"],
+    "tasks": ["programming", "research", "writing", "analysis", "brainstorming"],
+    "capabilities": {
+      "textGeneration": true,
+      "codeGeneration": true,
+      "analysis": true,
+      "longContext": true,
+      "fileUpload": true,
+      "imageUnderstanding": true,
+      "api": true,
+      "commercialUsage": true,
+      "localGeneration": false
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Pro", "price": 20, "period": "month" },
+        { "name": "Team", "price": 30, "period": "month" },
+        { "name": "Enterprise", "price": null, "period": "month" }
+      ],
+      "hasFreeTrial": false,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": true
+    },
+    "evaluation": {
+      "radarScore": 94,
+      "capability": 95,
+      "quality": 96,
+      "easeOfUse": 95,
+      "value": 91,
+      "reliability": 93,
+      "workflowFit": 94,
+      "innovation": 93
+    },
+    "platforms": ["web", "ios", "android"],
+    "released": "2023-03-14",
+    "lastUpdated": "2026-08-13",
+    "openSource": false,
+    "tags": ["llm", "assistant", "coding", "research", "writing", "reasoning"],
+    "pros": [
+      "Exceptional reasoning and nuance",
+      "200K+ context window",
+      "Strong coding abilities",
+      "Thoughtful and safe responses",
+      "Excellent at following complex instructions"
+    ],
+    "cons": [
+      "Can be overly cautious at times",
+      "No image generation",
+      "No real-time internet access",
+      "Rate limits on free tier"
+    ],
+    "useCases": [
+      { "name": "Code Development", "rating": 5 },
+      { "name": "Research Analysis", "rating": 5 },
+      { "name": "Technical Writing", "rating": 5 },
+      { "name": "Brainstorming", "rating": 4 },
+      { "name": "Data Analysis", "rating": 4 }
+    ],
+    "bestFor": ["Developers", "Researchers", "Writers", "Analysts"],
+    "history": [
+      { "date": "2026-08-13", "event": "Claude 4.5 Opus released" },
+      { "date": "2026-05-01", "event": "Extended thinking mode added" },
+      { "date": "2026-01-15", "event": "Claude 4 Sonnet launched" },
+      { "date": "2025-06-20", "event": "Claude 3.5 Sonnet released" },
+      { "date": "2023-03-14", "event": "Claude launched publicly" }
+    ],
+    "alternatives": ["chatgpt", "gemini", "llama"],
+    "tested": true,
+    "featured": true,
+    "trending": true,
+    "trendingChange": 67
+  },
+  {
+    "id": "flux-pro",
+    "name": "Flux Pro",
+    "slug": "flux-pro",
+    "url": "https://blackforestlabs.ai",
+    "description": "High-quality open-weight image generation model by Black Forest Labs with excellent prompt adherence and photorealism.",
+    "shortDescription": "Open-weight image generation with stunning photorealism",
+    "type": "AI Model",
+    "categories": ["image"],
+    "professions": ["designer", "artist", "photographer", "marketer"],
+    "tasks": ["concept-art", "photography", "marketing-artwork", "product-shots"],
+    "capabilities": {
+      "textToImage": true,
+      "imageToImage": true,
+      "characterConsistency": "partial",
+      "videoGeneration": false,
+      "batchGeneration": true,
+      "api": true,
+      "commercialUsage": true,
+      "localGeneration": true,
+      "inpainting": true,
+      "controlNet": true
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Open (Schnell)", "price": 0, "period": "month" },
+        { "name": "Pro API", "price": null, "period": "usage" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": true
+    },
+    "evaluation": {
+      "radarScore": 92,
+      "capability": 93,
+      "quality": 95,
+      "easeOfUse": 85,
+      "value": 95,
+      "reliability": 90,
+      "workflowFit": 89,
+      "innovation": 94
+    },
+    "platforms": ["web", "windows", "macos", "linux"],
+    "released": "2024-08-01",
+    "lastUpdated": "2026-07-28",
+    "openSource": true,
+    "tags": ["image-generation", "open-source", "photorealism", "local", "api"],
+    "pros": [
+      "Excellent prompt adherence",
+      "Open weights for local running",
+      "Best-in-class photorealism",
+      "Strong community and ecosystem",
+      "Commercial-friendly licensing"
+    ],
+    "cons": [
+      "Requires powerful GPU for local use",
+      "Pro model is API-only",
+      "Less artistic stylization than Midjourney",
+      "Setup complexity for local deployment"
+    ],
+    "useCases": [
+      { "name": "Product Photography", "rating": 5 },
+      { "name": "Concept Art", "rating": 4 },
+      { "name": "Marketing Materials", "rating": 5 },
+      { "name": "Character Design", "rating": 4 },
+      { "name": "Texture Generation", "rating": 4 }
+    ],
+    "bestFor": ["Photographers", "Designers", "Developers", "Researchers"],
+    "history": [
+      { "date": "2026-07-28", "event": "Flux 1.2 Pro released" },
+      { "date": "2026-04-10", "event": "ControlNet support added" },
+      { "date": "2026-01-05", "event": "Flux Fill (inpainting) launched" },
+      { "date": "2025-08-15", "event": "Flux 1.1 Pro released" },
+      { "date": "2024-08-01", "event": "Initial release" }
+    ],
+    "alternatives": ["midjourney", "stable-diffusion", "dall-e-3", "ideogram"],
+    "tested": true,
+    "featured": true,
+    "trending": false,
+    "trendingChange": 3
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "url": "https://chat.openai.com",
+    "description": "OpenAI's flagship conversational AI with GPT-4o, image generation, browsing, code execution, and extensive plugin ecosystem.",
+    "shortDescription": "The most popular AI assistant with multimodal capabilities",
+    "type": "AI Platform",
+    "categories": ["text", "image", "coding", "research"],
+    "professions": ["programmer", "writer", "student", "marketer", "business-owner", "researcher"],
+    "tasks": ["writing", "coding", "research", "analysis", "image-generation", "automation"],
+    "capabilities": {
+      "textGeneration": true,
+      "imageGeneration": true,
+      "codeGeneration": true,
+      "webBrowsing": true,
+      "codeExecution": true,
+      "fileUpload": true,
+      "plugins": true,
+      "api": true,
+      "commercialUsage": true,
+      "localGeneration": false
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Plus", "price": 20, "period": "month" },
+        { "name": "Pro", "price": 200, "period": "month" },
+        { "name": "Team", "price": 30, "period": "month" }
+      ],
+      "hasFreeTrial": false,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": true
+    },
+    "evaluation": {
+      "radarScore": 92,
+      "capability": 96,
+      "quality": 92,
+      "easeOfUse": 96,
+      "value": 88,
+      "reliability": 90,
+      "workflowFit": 92,
+      "innovation": 90
+    },
+    "platforms": ["web", "ios", "android", "windows", "macos"],
+    "released": "2022-11-30",
+    "lastUpdated": "2026-08-11",
+    "openSource": false,
+    "tags": ["llm", "assistant", "multimodal", "popular", "plugins"],
+    "pros": [
+      "Most versatile AI assistant available",
+      "Built-in image generation",
+      "Web browsing and code execution",
+      "Massive plugin ecosystem",
+      "Available on all platforms"
+    ],
+    "cons": [
+      "Pro plan is very expensive ($200/mo)",
+      "Quality can be inconsistent",
+      "Can hallucinate confidently",
+      "Rate limits during peak usage"
+    ],
+    "useCases": [
+      { "name": "General Writing", "rating": 5 },
+      { "name": "Code Development", "rating": 4 },
+      { "name": "Research", "rating": 4 },
+      { "name": "Image Creation", "rating": 4 },
+      { "name": "Data Analysis", "rating": 4 }
+    ],
+    "bestFor": ["Everyone", "Writers", "Students", "Marketers"],
+    "history": [
+      { "date": "2026-08-11", "event": "GPT-4o vision improvements" },
+      { "date": "2026-06-01", "event": "Desktop app for Windows launched" },
+      { "date": "2026-03-10", "event": "GPT-5 preview released" },
+      { "date": "2025-05-13", "event": "GPT-4o launched" },
+      { "date": "2022-11-30", "event": "ChatGPT launched" }
+    ],
+    "alternatives": ["claude", "gemini", "perplexity"],
+    "tested": true,
+    "featured": false,
+    "trending": false,
+    "trendingChange": -2
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "slug": "stable-diffusion",
+    "url": "https://stability.ai",
+    "description": "The most popular open-source image generation model with massive community, extensive fine-tunes, and full local control.",
+    "shortDescription": "Open-source image generation with unmatched customization",
+    "type": "AI Model",
+    "categories": ["image"],
+    "professions": ["artist", "game-developer", "designer", "researcher"],
+    "tasks": ["concept-art", "texture-generation", "character-design", "training-custom-models"],
+    "capabilities": {
+      "textToImage": true,
+      "imageToImage": true,
+      "characterConsistency": true,
+      "videoGeneration": false,
+      "batchGeneration": true,
+      "api": true,
+      "commercialUsage": true,
+      "localGeneration": true,
+      "inpainting": true,
+      "controlNet": true,
+      "loraTraining": true
+    },
+    "pricing": {
+      "model": "free",
+      "freeTier": true,
+      "plans": [
+        { "name": "Open Source", "price": 0, "period": "month" }
+      ],
+      "hasFreeTrial": false,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": false
+    },
+    "evaluation": {
+      "radarScore": 88,
+      "capability": 92,
+      "quality": 85,
+      "easeOfUse": 72,
+      "value": 99,
+      "reliability": 88,
+      "workflowFit": 85,
+      "innovation": 90
+    },
+    "platforms": ["windows", "macos", "linux"],
+    "released": "2022-08-22",
+    "lastUpdated": "2026-07-15",
+    "openSource": true,
+    "tags": ["image-generation", "open-source", "local", "customizable", "free"],
+    "pros": [
+      "Completely free and open source",
+      "Full local control and privacy",
+      "Massive ecosystem of models and extensions",
+      "Highly customizable with LoRA training",
+      "No usage limits"
+    ],
+    "cons": [
+      "Requires technical knowledge to set up",
+      "Needs a powerful GPU",
+      "Base model quality below Midjourney/Flux",
+      "Can be overwhelming for beginners"
+    ],
+    "useCases": [
+      { "name": "Custom Model Training", "rating": 5 },
+      { "name": "Game Asset Generation", "rating": 4 },
+      { "name": "Batch Processing", "rating": 5 },
+      { "name": "Concept Art", "rating": 4 },
+      { "name": "Texture Generation", "rating": 4 }
+    ],
+    "bestFor": ["Technical Artists", "Game Developers", "Researchers", "Hobbyists"],
+    "history": [
+      { "date": "2026-07-15", "event": "SD 3.5 Ultra released" },
+      { "date": "2026-03-01", "event": "SDXL Turbo 2.0 released" },
+      { "date": "2025-10-15", "event": "SD 3.0 launched" },
+      { "date": "2024-07-01", "event": "SDXL released" },
+      { "date": "2022-08-22", "event": "Stable Diffusion 1.0 released" }
+    ],
+    "alternatives": ["flux-pro", "midjourney", "comfyui"],
+    "tested": true,
+    "featured": false,
+    "trending": false,
+    "trendingChange": -5
+  },
+  {
+    "id": "eleven-labs",
+    "name": "ElevenLabs",
+    "slug": "eleven-labs",
+    "url": "https://elevenlabs.io",
+    "description": "Industry-leading AI voice synthesis platform with realistic text-to-speech, voice cloning, and dubbing capabilities.",
+    "shortDescription": "Ultra-realistic AI voice synthesis and cloning",
+    "type": "AI Tool",
+    "categories": ["voice", "audio"],
+    "professions": ["youtuber", "game-developer", "marketer", "writer"],
+    "tasks": ["voiceover", "dubbing", "audiobook", "voice-cloning", "podcast"],
+    "capabilities": {
+      "textToSpeech": true,
+      "voiceCloning": true,
+      "dubbing": true,
+      "soundEffects": true,
+      "multiLanguage": true,
+      "api": true,
+      "commercialUsage": true,
+      "localGeneration": false,
+      "realtimeStreaming": true
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Starter", "price": 5, "period": "month" },
+        { "name": "Creator", "price": 22, "period": "month" },
+        { "name": "Pro", "price": 99, "period": "month" },
+        { "name": "Scale", "price": 330, "period": "month" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": true
+    },
+    "evaluation": {
+      "radarScore": 91,
+      "capability": 94,
+      "quality": 95,
+      "easeOfUse": 92,
+      "value": 85,
+      "reliability": 90,
+      "workflowFit": 89,
+      "innovation": 93
+    },
+    "platforms": ["web", "ios", "android"],
+    "released": "2023-01-23",
+    "lastUpdated": "2026-08-06",
+    "openSource": false,
+    "tags": ["voice", "tts", "cloning", "dubbing", "audio"],
+    "pros": [
+      "Most realistic text-to-speech available",
+      "Excellent voice cloning quality",
+      "30+ language support",
+      "Powerful API",
+      "Sound effects generation"
+    ],
+    "cons": [
+      "Expensive at higher tiers",
+      "Voice cloning requires consent verification",
+      "Free tier is very limited",
+      "Occasional pronunciation issues"
+    ],
+    "useCases": [
+      { "name": "YouTube Narration", "rating": 5 },
+      { "name": "Game Character Voices", "rating": 4 },
+      { "name": "Audiobook Production", "rating": 5 },
+      { "name": "Podcast Production", "rating": 4 },
+      { "name": "E-Learning Content", "rating": 5 }
+    ],
+    "bestFor": ["Content Creators", "Game Developers", "Educators", "Publishers"],
+    "history": [
+      { "date": "2026-08-06", "event": "Turbo V3 model released" },
+      { "date": "2026-05-15", "event": "Sound effects generation launched" },
+      { "date": "2026-02-01", "event": "Voice isolator added" },
+      { "date": "2025-09-10", "event": "Dubbing Studio launched" },
+      { "date": "2023-01-23", "event": "Public launch" }
+    ],
+    "alternatives": ["play-ht", "murf-ai", "resemble-ai"],
+    "tested": true,
+    "featured": false,
+    "trending": false,
+    "trendingChange": 15
+  },
+  {
+    "id": "comfyui",
+    "name": "ComfyUI",
+    "slug": "comfyui",
+    "url": "https://comfyui.com",
+    "description": "Node-based visual workflow interface for AI image and video generation with unmatched flexibility and control.",
+    "shortDescription": "Node-based AI workflow builder for image and video generation",
+    "type": "AI Tool",
+    "categories": ["image", "video", "automation"],
+    "professions": ["artist", "game-developer", "designer", "researcher"],
+    "tasks": ["workflow-automation", "image-generation", "video-generation", "model-chaining"],
+    "capabilities": {
+      "textToImage": true,
+      "imageToImage": true,
+      "videoGeneration": true,
+      "nodeWorkflow": true,
+      "customModels": true,
+      "batchGeneration": true,
+      "api": true,
+      "commercialUsage": true,
+      "localGeneration": true
+    },
+    "pricing": {
+      "model": "free",
+      "freeTier": true,
+      "plans": [
+        { "name": "Open Source", "price": 0, "period": "month" }
+      ],
+      "hasFreeTrial": false,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": false
+    },
+    "evaluation": {
+      "radarScore": 87,
+      "capability": 96,
+      "quality": 90,
+      "easeOfUse": 62,
+      "value": 99,
+      "reliability": 85,
+      "workflowFit": 88,
+      "innovation": 92
+    },
+    "platforms": ["windows", "macos", "linux"],
+    "released": "2023-01-15",
+    "lastUpdated": "2026-08-09",
+    "openSource": true,
+    "tags": ["workflow", "node-based", "open-source", "local", "automation", "free"],
+    "pros": [
+      "Unmatched workflow flexibility",
+      "Supports virtually any model",
+      "Completely free and open source",
+      "Active community with thousands of custom nodes",
+      "Full local control"
+    ],
+    "cons": [
+      "Very steep learning curve",
+      "No GUI polish compared to commercial tools",
+      "Requires significant GPU resources",
+      "Debugging workflows can be frustrating"
+    ],
+    "useCases": [
+      { "name": "Complex AI Pipelines", "rating": 5 },
+      { "name": "Batch Asset Generation", "rating": 5 },
+      { "name": "Research & Experimentation", "rating": 5 },
+      { "name": "Video Generation", "rating": 4 },
+      { "name": "Quick Image Generation", "rating": 2 }
+    ],
+    "bestFor": ["Power Users", "Technical Artists", "Researchers", "Pipeline Developers"],
+    "history": [
+      { "date": "2026-08-09", "event": "Desktop app launched" },
+      { "date": "2026-06-20", "event": "Native video workflow support" },
+      { "date": "2026-03-05", "event": "Custom node manager revamped" },
+      { "date": "2025-08-01", "event": "ComfyUI Foundation formed" },
+      { "date": "2023-01-15", "event": "Initial release" }
+    ],
+    "alternatives": ["automatic1111", "fooocus", "invoke-ai"],
+    "tested": true,
+    "featured": false,
+    "trending": true,
+    "trendingChange": 89
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "slug": "perplexity",
+    "url": "https://perplexity.ai",
+    "description": "AI-powered research and search engine that provides cited answers with real-time web access and academic sources.",
+    "shortDescription": "AI search engine with cited, real-time answers",
+    "type": "AI Tool",
+    "categories": ["research", "search", "text"],
+    "professions": ["researcher", "student", "writer", "journalist"],
+    "tasks": ["research", "fact-checking", "literature-review", "market-research"],
+    "capabilities": {
+      "webSearch": true,
+      "citations": true,
+      "academicSearch": true,
+      "fileUpload": true,
+      "codeGeneration": true,
+      "imageGeneration": true,
+      "api": true,
+      "commercialUsage": true,
+      "realtimeData": true
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Pro", "price": 20, "period": "month" },
+        { "name": "Enterprise", "price": null, "period": "month" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": true
+    },
+    "evaluation": {
+      "radarScore": 90,
+      "capability": 88,
+      "quality": 91,
+      "easeOfUse": 96,
+      "value": 92,
+      "reliability": 88,
+      "workflowFit": 90,
+      "innovation": 89
+    },
+    "platforms": ["web", "ios", "android", "chrome"],
+    "released": "2022-12-07",
+    "lastUpdated": "2026-08-07",
+    "openSource": false,
+    "tags": ["search", "research", "citations", "academic", "real-time"],
+    "pros": [
+      "Always cites sources",
+      "Real-time web access",
+      "Excellent for research tasks",
+      "Clean, focused interface",
+      "Academic paper search"
+    ],
+    "cons": [
+      "Can surface outdated sources",
+      "Pro searches limited per day",
+      "Less creative than ChatGPT/Claude",
+      "Source quality varies"
+    ],
+    "useCases": [
+      { "name": "Academic Research", "rating": 5 },
+      { "name": "Market Research", "rating": 4 },
+      { "name": "Fact Checking", "rating": 5 },
+      { "name": "Technical Documentation", "rating": 4 },
+      { "name": "News Monitoring", "rating": 4 }
+    ],
+    "bestFor": ["Researchers", "Students", "Journalists", "Analysts"],
+    "history": [
+      { "date": "2026-08-07", "event": "Perplexity Spaces collaboration added" },
+      { "date": "2026-04-20", "event": "Enterprise tier launched" },
+      { "date": "2026-01-10", "event": "Internal search for organizations" },
+      { "date": "2025-07-15", "event": "Perplexity Pages launched" },
+      { "date": "2022-12-07", "event": "Public launch" }
+    ],
+    "alternatives": ["chatgpt", "you-com", "phind"],
+    "tested": true,
+    "featured": false,
+    "trending": false,
+    "trendingChange": 7
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "slug": "github-copilot",
+    "url": "https://github.com/features/copilot",
+    "description": "AI pair programmer by GitHub/Microsoft that provides code suggestions, chat, and workspace understanding directly in your IDE.",
+    "shortDescription": "AI pair programmer integrated into your favorite IDE",
+    "type": "AI Tool",
+    "categories": ["coding"],
+    "professions": ["programmer", "engineer", "game-developer"],
+    "tasks": ["code-completion", "code-generation", "debugging", "documentation"],
+    "capabilities": {
+      "codeCompletion": true,
+      "codeGeneration": true,
+      "codeExplanation": true,
+      "debugging": true,
+      "chatInterface": true,
+      "multiFile": true,
+      "terminalIntegration": true,
+      "api": false,
+      "commercialUsage": true
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Pro", "price": 10, "period": "month" },
+        { "name": "Business", "price": 19, "period": "month" },
+        { "name": "Enterprise", "price": 39, "period": "month" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": false
+    },
+    "evaluation": {
+      "radarScore": 89,
+      "capability": 90,
+      "quality": 88,
+      "easeOfUse": 95,
+      "value": 90,
+      "reliability": 88,
+      "workflowFit": 92,
+      "innovation": 84
+    },
+    "platforms": ["windows", "macos", "linux"],
+    "released": "2021-06-29",
+    "lastUpdated": "2026-08-04",
+    "openSource": false,
+    "tags": ["coding", "ide", "autocomplete", "developer-tools", "microsoft"],
+    "pros": [
+      "Seamless IDE integration",
+      "Strong code completion",
+      "Works in VS Code, JetBrains, Neovim",
+      "Free tier for students and OSS",
+      "Agent mode for multi-step tasks"
+    ],
+    "cons": [
+      "Suggestions can be inaccurate",
+      "Less powerful than Cursor for large refactors",
+      "Codebase understanding more limited",
+      "Privacy concerns with code telemetry"
+    ],
+    "useCases": [
+      { "name": "Daily Coding", "rating": 5 },
+      { "name": "Boilerplate Generation", "rating": 5 },
+      { "name": "Learning New APIs", "rating": 4 },
+      { "name": "Code Review", "rating": 3 },
+      { "name": "Complex Refactoring", "rating": 3 }
+    ],
+    "bestFor": ["Professional Developers", "Students", "Open Source Contributors"],
+    "history": [
+      { "date": "2026-08-04", "event": "Agent mode improvements" },
+      { "date": "2026-05-10", "event": "Copilot Workspace launched" },
+      { "date": "2026-01-20", "event": "Multi-model support added" },
+      { "date": "2025-03-01", "event": "Copilot X features merged" },
+      { "date": "2021-06-29", "event": "Technical preview launched" }
+    ],
+    "alternatives": ["cursor", "windsurf", "codeium", "tabnine"],
+    "tested": true,
+    "featured": false,
+    "trending": false,
+    "trendingChange": -8
+  },
+  {
+    "id": "kling-ai",
+    "name": "Kling AI",
+    "slug": "kling-ai",
+    "url": "https://klingai.com",
+    "description": "Powerful AI video generation platform from Kuaishou with impressive motion quality and creative control.",
+    "shortDescription": "High-quality AI video generation with natural motion",
+    "type": "AI Tool",
+    "categories": ["video"],
+    "professions": ["youtuber", "marketer", "designer"],
+    "tasks": ["video-production", "social-media", "advertising", "content-creation"],
+    "capabilities": {
+      "textToVideo": true,
+      "imageToVideo": true,
+      "videoEditing": false,
+      "longFormVideo": true,
+      "api": true,
+      "commercialUsage": true,
+      "localGeneration": false
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Standard", "price": 8, "period": "month" },
+        { "name": "Pro", "price": 28, "period": "month" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": true,
+      "commercialRights": true,
+      "apiPricing": true
+    },
+    "evaluation": {
+      "radarScore": 86,
+      "capability": 88,
+      "quality": 87,
+      "easeOfUse": 90,
+      "value": 88,
+      "reliability": 82,
+      "workflowFit": 80,
+      "innovation": 88
+    },
+    "platforms": ["web"],
+    "released": "2024-06-06",
+    "lastUpdated": "2026-08-01",
+    "openSource": false,
+    "tags": ["video-generation", "motion", "creative", "ai-video"],
+    "pros": [
+      "Impressive motion quality",
+      "Good value for money",
+      "Longer video outputs than competitors",
+      "Solid free tier",
+      "Fast generation speed"
+    ],
+    "cons": [
+      "Watermark on free plan",
+      "UI can be confusing",
+      "Less control than Runway",
+      "Occasional artifacts in complex scenes"
+    ],
+    "useCases": [
+      { "name": "Social Media Videos", "rating": 5 },
+      { "name": "Product Ads", "rating": 4 },
+      { "name": "Music Videos", "rating": 4 },
+      { "name": "Short Films", "rating": 3 },
+      { "name": "YouTube Content", "rating": 4 }
+    ],
+    "bestFor": ["Content Creators", "Social Media Managers", "Marketers"],
+    "history": [
+      { "date": "2026-08-01", "event": "1080p output support added" },
+      { "date": "2026-05-15", "event": "Kling 2.0 model released" },
+      { "date": "2026-02-01", "event": "English interface launched" },
+      { "date": "2025-07-20", "event": "Kling 1.5 released" },
+      { "date": "2024-06-06", "event": "Initial launch" }
+    ],
+    "alternatives": ["runway-gen3", "pika", "luma-dream-machine"],
+    "tested": true,
+    "featured": false,
+    "trending": true,
+    "trendingChange": 156
+  },
+  {
+    "id": "v0",
+    "name": "v0",
+    "slug": "v0",
+    "url": "https://v0.dev",
+    "description": "Vercel's AI UI generator that creates production-ready React components and full pages from text and image prompts.",
+    "shortDescription": "AI-powered UI component and page generator",
+    "type": "AI Tool",
+    "categories": ["coding", "design"],
+    "professions": ["programmer", "designer", "business-owner"],
+    "tasks": ["ui-design", "frontend-development", "prototyping", "component-creation"],
+    "capabilities": {
+      "textToUI": true,
+      "imageToUI": true,
+      "reactComponents": true,
+      "tailwindCSS": true,
+      "responsiveDesign": true,
+      "codeExport": true,
+      "api": false,
+      "commercialUsage": true
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Premium", "price": 20, "period": "month" },
+        { "name": "Team", "price": 30, "period": "month" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": false
+    },
+    "evaluation": {
+      "radarScore": 88,
+      "capability": 85,
+      "quality": 90,
+      "easeOfUse": 95,
+      "value": 88,
+      "reliability": 86,
+      "workflowFit": 88,
+      "innovation": 90
+    },
+    "platforms": ["web"],
+    "released": "2023-09-12",
+    "lastUpdated": "2026-08-03",
+    "openSource": false,
+    "tags": ["ui", "frontend", "react", "design-to-code", "prototyping"],
+    "pros": [
+      "Extremely fast UI prototyping",
+      "Production-ready code output",
+      "Good responsive design",
+      "Iterative refinement via chat",
+      "shadcn/ui component library"
+    ],
+    "cons": [
+      "Limited to React/Tailwind stack",
+      "Complex logic requires manual coding",
+      "Free tier credits run out quickly",
+      "Not suitable for backend logic"
+    ],
+    "useCases": [
+      { "name": "Landing Pages", "rating": 5 },
+      { "name": "Dashboard UI", "rating": 4 },
+      { "name": "Component Libraries", "rating": 4 },
+      { "name": "Rapid Prototyping", "rating": 5 },
+      { "name": "Email Templates", "rating": 3 }
+    ],
+    "bestFor": ["Frontend Developers", "Designers", "Startup Founders", "Product Managers"],
+    "history": [
+      { "date": "2026-08-03", "event": "Full-page generation improvements" },
+      { "date": "2026-04-15", "event": "Image-to-code feature enhanced" },
+      { "date": "2026-01-20", "event": "Team collaboration features" },
+      { "date": "2025-05-01", "event": "v0 2.0 launched" },
+      { "date": "2023-09-12", "event": "Public beta launched" }
+    ],
+    "alternatives": ["bolt-new", "lovable", "create-xyz"],
+    "tested": true,
+    "featured": false,
+    "trending": false,
+    "trendingChange": 22
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "slug": "gemini",
+    "url": "https://gemini.google.com",
+    "description": "Google's multimodal AI assistant with native search integration, long context, and deep Google ecosystem integration.",
+    "shortDescription": "Google's multimodal AI with native search and ecosystem integration",
+    "type": "AI Model",
+    "categories": ["text", "coding", "research", "image"],
+    "professions": ["programmer", "researcher", "student", "marketer", "business-owner"],
+    "tasks": ["research", "coding", "writing", "analysis", "search"],
+    "capabilities": {
+      "textGeneration": true,
+      "imageGeneration": true,
+      "codeGeneration": true,
+      "webSearch": true,
+      "longContext": true,
+      "multimodal": true,
+      "api": true,
+      "commercialUsage": true,
+      "googleIntegration": true
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Advanced", "price": 20, "period": "month" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": true
+    },
+    "evaluation": {
+      "radarScore": 90,
+      "capability": 94,
+      "quality": 90,
+      "easeOfUse": 93,
+      "value": 92,
+      "reliability": 87,
+      "workflowFit": 88,
+      "innovation": 88
+    },
+    "platforms": ["web", "ios", "android"],
+    "released": "2023-12-06",
+    "lastUpdated": "2026-08-12",
+    "openSource": false,
+    "tags": ["llm", "multimodal", "google", "search", "assistant"],
+    "pros": [
+      "Deep Google Search integration",
+      "2M token context window",
+      "Strong multimodal capabilities",
+      "Generous free tier",
+      "Native Google Workspace integration"
+    ],
+    "cons": [
+      "Image generation can be restricted",
+      "Less reliable for complex reasoning",
+      "Google ecosystem lock-in",
+      "Availability varies by region"
+    ],
+    "useCases": [
+      { "name": "Research with Search", "rating": 5 },
+      { "name": "Document Analysis", "rating": 5 },
+      { "name": "Code Development", "rating": 4 },
+      { "name": "Creative Writing", "rating": 3 },
+      { "name": "Data Analysis", "rating": 4 }
+    ],
+    "bestFor": ["Researchers", "Students", "Google Users", "Developers"],
+    "history": [
+      { "date": "2026-08-12", "event": "Gemini 2.5 Pro released" },
+      { "date": "2026-04-01", "event": "2M context window expanded" },
+      { "date": "2025-12-05", "event": "Gemini 2.0 launched" },
+      { "date": "2024-02-08", "event": "Gemini Ultra released" },
+      { "date": "2023-12-06", "event": "Gemini launched (replacing Bard)" }
+    ],
+    "alternatives": ["chatgpt", "claude", "perplexity"],
+    "tested": true,
+    "featured": false,
+    "trending": true,
+    "trendingChange": 34
+  },
+  {
+    "id": "bolt-new",
+    "name": "Bolt.new",
+    "slug": "bolt-new",
+    "url": "https://bolt.new",
+    "description": "AI full-stack web app builder that generates, runs, and deploys complete applications from natural language prompts.",
+    "shortDescription": "Build and deploy full-stack web apps with AI",
+    "type": "AI Tool",
+    "categories": ["coding", "automation"],
+    "professions": ["programmer", "business-owner", "designer"],
+    "tasks": ["web-development", "prototyping", "full-stack", "deployment"],
+    "capabilities": {
+      "fullStackGeneration": true,
+      "codeExecution": true,
+      "deployment": true,
+      "databaseSetup": true,
+      "authentication": true,
+      "api": false,
+      "commercialUsage": true,
+      "fileEditing": true
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Pro", "price": 20, "period": "month" },
+        { "name": "Teams", "price": 50, "period": "month" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": false
+    },
+    "evaluation": {
+      "radarScore": 85,
+      "capability": 87,
+      "quality": 82,
+      "easeOfUse": 94,
+      "value": 86,
+      "reliability": 79,
+      "workflowFit": 83,
+      "innovation": 90
+    },
+    "platforms": ["web"],
+    "released": "2024-10-01",
+    "lastUpdated": "2026-07-22",
+    "openSource": false,
+    "tags": ["full-stack", "web-dev", "deployment", "no-code", "rapid"],
+    "pros": [
+      "Full app generation from prompt",
+      "Built-in deployment",
+      "Handles frontend and backend",
+      "Database integration",
+      "Fast iteration"
+    ],
+    "cons": [
+      "Code quality can be inconsistent",
+      "Complex apps need manual fixes",
+      "Limited to web technologies",
+      "Token usage burns quickly"
+    ],
+    "useCases": [
+      { "name": "MVP Prototyping", "rating": 5 },
+      { "name": "Landing Pages", "rating": 5 },
+      { "name": "Internal Tools", "rating": 4 },
+      { "name": "Complex Applications", "rating": 2 },
+      { "name": "Portfolio Sites", "rating": 4 }
+    ],
+    "bestFor": ["Entrepreneurs", "Non-Technical Founders", "Rapid Prototypers"],
+    "history": [
+      { "date": "2026-07-22", "event": "Team collaboration launched" },
+      { "date": "2026-04-10", "event": "Database integration improved" },
+      { "date": "2026-01-15", "event": "Multi-file editing added" },
+      { "date": "2025-06-01", "event": "Deployment pipeline revamped" },
+      { "date": "2024-10-01", "event": "Bolt.new launched" }
+    ],
+    "alternatives": ["v0", "lovable", "create-xyz", "replit"],
+    "tested": true,
+    "featured": false,
+    "trending": false,
+    "trendingChange": 11
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "slug": "notion-ai",
+    "url": "https://notion.so",
+    "description": "AI writing and productivity assistant integrated into Notion's workspace — summarize, draft, edit, and brainstorm within your docs.",
+    "shortDescription": "AI assistant built into Notion's productivity workspace",
+    "type": "AI Tool",
+    "categories": ["writing", "productivity"],
+    "professions": ["writer", "marketer", "business-owner", "student"],
+    "tasks": ["writing", "summarization", "brainstorming", "project-management"],
+    "capabilities": {
+      "textGeneration": true,
+      "summarization": true,
+      "editing": true,
+      "translation": true,
+      "brainstorming": true,
+      "workspaceSearch": true,
+      "api": false,
+      "commercialUsage": true
+    },
+    "pricing": {
+      "model": "paid",
+      "freeTier": false,
+      "plans": [
+        { "name": "AI Add-on", "price": 10, "period": "month" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": false
+    },
+    "evaluation": {
+      "radarScore": 83,
+      "capability": 78,
+      "quality": 84,
+      "easeOfUse": 94,
+      "value": 80,
+      "reliability": 85,
+      "workflowFit": 90,
+      "innovation": 72
+    },
+    "platforms": ["web", "windows", "macos", "ios", "android"],
+    "released": "2023-02-22",
+    "lastUpdated": "2026-07-10",
+    "openSource": false,
+    "tags": ["writing", "productivity", "notion", "workspace", "collaboration"],
+    "pros": [
+      "Seamlessly integrated into Notion",
+      "Context-aware within your workspace",
+      "Great for summarization",
+      "Available across all Notion platforms",
+      "No switching between tools"
+    ],
+    "cons": [
+      "Requires Notion subscription",
+      "AI capabilities are basic compared to ChatGPT",
+      "No image generation",
+      "Limited customization"
+    ],
+    "useCases": [
+      { "name": "Meeting Summaries", "rating": 5 },
+      { "name": "Blog Drafts", "rating": 4 },
+      { "name": "Project Planning", "rating": 4 },
+      { "name": "Technical Docs", "rating": 3 },
+      { "name": "Email Drafts", "rating": 4 }
+    ],
+    "bestFor": ["Notion Users", "Teams", "Content Writers", "Project Managers"],
+    "history": [
+      { "date": "2026-07-10", "event": "Q&A over workspace improved" },
+      { "date": "2026-03-01", "event": "AI now included in all plans" },
+      { "date": "2025-10-15", "event": "Workspace-wide AI search" },
+      { "date": "2025-02-01", "event": "AI writing improvements" },
+      { "date": "2023-02-22", "event": "Notion AI launched" }
+    ],
+    "alternatives": ["jasper", "copy-ai", "grammarly"],
+    "tested": false,
+    "featured": false,
+    "trending": false,
+    "trendingChange": -3
+  },
+  {
+    "id": "devin",
+    "name": "Devin",
+    "slug": "devin",
+    "url": "https://devin.ai",
+    "description": "Autonomous AI software engineer by Cognition that can plan, write, debug, and deploy code independently on complex tasks.",
+    "shortDescription": "Autonomous AI software engineer for complex coding tasks",
+    "type": "AI Agent",
+    "categories": ["coding", "agents"],
+    "professions": ["programmer", "engineer", "business-owner"],
+    "tasks": ["software-development", "bug-fixing", "code-migration", "testing"],
+    "capabilities": {
+      "autonomousCoding": true,
+      "planning": true,
+      "debugging": true,
+      "deployment": true,
+      "browserUsage": true,
+      "terminalAccess": true,
+      "api": false,
+      "commercialUsage": true,
+      "selfCorrection": true
+    },
+    "pricing": {
+      "model": "paid",
+      "freeTier": false,
+      "plans": [
+        { "name": "Team", "price": 500, "period": "month" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": false
+    },
+    "evaluation": {
+      "radarScore": 78,
+      "capability": 85,
+      "quality": 75,
+      "easeOfUse": 82,
+      "value": 65,
+      "reliability": 72,
+      "workflowFit": 78,
+      "innovation": 95
+    },
+    "platforms": ["web"],
+    "released": "2024-03-12",
+    "lastUpdated": "2026-08-02",
+    "openSource": false,
+    "tags": ["agent", "autonomous", "software-engineer", "coding", "enterprise"],
+    "pros": [
+      "Can work autonomously on complex tasks",
+      "Plans and executes multi-step coding projects",
+      "Uses browser, terminal, and editor like a human",
+      "Self-corrects errors",
+      "Impressive on well-defined tasks"
+    ],
+    "cons": [
+      "Very expensive ($500/mo)",
+      "Unreliable on ambiguous requirements",
+      "Can go off-track on complex problems",
+      "Limited transparency in decision-making",
+      "Still early-stage technology"
+    ],
+    "useCases": [
+      { "name": "Bug Fixing", "rating": 4 },
+      { "name": "Code Migration", "rating": 3 },
+      { "name": "Feature Implementation", "rating": 3 },
+      { "name": "Testing", "rating": 4 },
+      { "name": "Greenfield Projects", "rating": 2 }
+    ],
+    "bestFor": ["Engineering Teams", "Enterprise", "DevOps"],
+    "history": [
+      { "date": "2026-08-02", "event": "Devin 2.0 with improved planning" },
+      { "date": "2026-05-01", "event": "Multi-repo support added" },
+      { "date": "2026-01-15", "event": "General availability" },
+      { "date": "2025-06-01", "event": "Beta access expanded" },
+      { "date": "2024-03-12", "event": "Announced and demoed" }
+    ],
+    "alternatives": ["cursor", "github-copilot", "claude-code"],
+    "tested": true,
+    "featured": false,
+    "trending": true,
+    "trendingChange": 243
+  },
+  {
+    "id": "ideogram",
+    "name": "Ideogram",
+    "slug": "ideogram",
+    "url": "https://ideogram.ai",
+    "description": "AI image generator known for exceptional text rendering in images and versatile style options.",
+    "shortDescription": "AI image generation with best-in-class text rendering",
+    "type": "AI Tool",
+    "categories": ["image"],
+    "professions": ["designer", "marketer", "artist"],
+    "tasks": ["logo-design", "poster-design", "social-media", "typography"],
+    "capabilities": {
+      "textToImage": true,
+      "imageToImage": true,
+      "textRendering": true,
+      "styleControl": true,
+      "batchGeneration": true,
+      "api": true,
+      "commercialUsage": true,
+      "localGeneration": false
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Basic", "price": 8, "period": "month" },
+        { "name": "Plus", "price": 20, "period": "month" },
+        { "name": "Pro", "price": 60, "period": "month" }
+      ],
+      "hasFreeTrial": false,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": true
+    },
+    "evaluation": {
+      "radarScore": 86,
+      "capability": 87,
+      "quality": 88,
+      "easeOfUse": 92,
+      "value": 89,
+      "reliability": 84,
+      "workflowFit": 80,
+      "innovation": 85
+    },
+    "platforms": ["web"],
+    "released": "2023-08-22",
+    "lastUpdated": "2026-07-30",
+    "openSource": false,
+    "tags": ["image-generation", "text-in-image", "typography", "design", "logo"],
+    "pros": [
+      "Best text rendering in AI images",
+      "Excellent for logos and posters",
+      "Generous free tier",
+      "Good style variety",
+      "API available"
+    ],
+    "cons": [
+      "Overall quality below Midjourney",
+      "Fewer advanced editing features",
+      "Can struggle with complex compositions",
+      "Smaller community"
+    ],
+    "useCases": [
+      { "name": "Logo Concepts", "rating": 5 },
+      { "name": "Social Media Graphics", "rating": 5 },
+      { "name": "Poster Design", "rating": 5 },
+      { "name": "Concept Art", "rating": 3 },
+      { "name": "T-Shirt Designs", "rating": 4 }
+    ],
+    "bestFor": ["Graphic Designers", "Marketers", "Small Business Owners"],
+    "history": [
+      { "date": "2026-07-30", "event": "Ideogram 3.0 released" },
+      { "date": "2026-04-01", "event": "Canvas editing tools added" },
+      { "date": "2025-11-15", "event": "Ideogram 2.0 launched" },
+      { "date": "2025-02-01", "event": "API released" },
+      { "date": "2023-08-22", "event": "Public launch" }
+    ],
+    "alternatives": ["midjourney", "dall-e-3", "flux-pro", "canva-ai"],
+    "tested": true,
+    "featured": false,
+    "trending": false,
+    "trendingChange": 18
+  },
+  {
+    "id": "dall-e-3",
+    "name": "DALL·E 3",
+    "slug": "dall-e-3",
+    "url": "https://openai.com/dall-e-3",
+    "description": "OpenAI's image generation model integrated into ChatGPT, known for excellent prompt understanding and safe outputs.",
+    "shortDescription": "OpenAI's image generator with exceptional prompt understanding",
+    "type": "AI Model",
+    "categories": ["image"],
+    "professions": ["designer", "marketer", "writer", "student"],
+    "tasks": ["illustration", "concept-art", "social-media", "presentation-graphics"],
+    "capabilities": {
+      "textToImage": true,
+      "imageToImage": false,
+      "characterConsistency": "partial",
+      "videoGeneration": false,
+      "batchGeneration": false,
+      "api": true,
+      "commercialUsage": true,
+      "localGeneration": false,
+      "chatGPTIntegration": true
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Via ChatGPT Free", "price": 0, "period": "month" },
+        { "name": "Via ChatGPT Plus", "price": 20, "period": "month" },
+        { "name": "API", "price": null, "period": "usage" }
+      ],
+      "hasFreeTrial": false,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": true
+    },
+    "evaluation": {
+      "radarScore": 84,
+      "capability": 82,
+      "quality": 86,
+      "easeOfUse": 95,
+      "value": 85,
+      "reliability": 84,
+      "workflowFit": 82,
+      "innovation": 78
+    },
+    "platforms": ["web", "ios", "android"],
+    "released": "2023-10-03",
+    "lastUpdated": "2026-06-15",
+    "openSource": false,
+    "tags": ["image-generation", "openai", "chatgpt", "illustration"],
+    "pros": [
+      "Excellent prompt understanding",
+      "Integrated into ChatGPT workflow",
+      "Safe, reliable outputs",
+      "Good at illustrations and diagrams",
+      "Easy for beginners"
+    ],
+    "cons": [
+      "Less artistic than Midjourney",
+      "No image-to-image editing",
+      "No batch generation",
+      "Style control is limited",
+      "Heavily filtered content"
+    ],
+    "useCases": [
+      { "name": "Blog Illustrations", "rating": 5 },
+      { "name": "Presentation Graphics", "rating": 5 },
+      { "name": "Social Media Posts", "rating": 4 },
+      { "name": "Concept Art", "rating": 3 },
+      { "name": "Logo Design", "rating": 2 }
+    ],
+    "bestFor": ["Beginners", "Writers", "Students", "Content Creators"],
+    "history": [
+      { "date": "2026-06-15", "event": "Quality improvements in GPT-4o" },
+      { "date": "2026-02-01", "event": "Style presets added" },
+      { "date": "2025-05-13", "event": "Integrated into GPT-4o" },
+      { "date": "2024-04-01", "event": "API pricing reduced" },
+      { "date": "2023-10-03", "event": "DALL·E 3 launched" }
+    ],
+    "alternatives": ["midjourney", "flux-pro", "ideogram", "stable-diffusion"],
+    "tested": true,
+    "featured": false,
+    "trending": false,
+    "trendingChange": -12
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "slug": "claude-code",
+    "url": "https://docs.anthropic.com/en/docs/claude-code",
+    "description": "Anthropic's agentic coding tool that operates in your terminal, understanding your entire codebase and executing complex tasks.",
+    "shortDescription": "Terminal-based agentic coding assistant by Anthropic",
+    "type": "AI Agent",
+    "categories": ["coding", "agents"],
+    "professions": ["programmer", "engineer"],
+    "tasks": ["software-development", "refactoring", "debugging", "architecture"],
+    "capabilities": {
+      "autonomousCoding": true,
+      "codebaseUnderstanding": true,
+      "terminalAccess": true,
+      "multiFile": true,
+      "gitIntegration": true,
+      "debugging": true,
+      "api": false,
+      "commercialUsage": true
+    },
+    "pricing": {
+      "model": "paid",
+      "freeTier": false,
+      "plans": [
+        { "name": "Usage-based", "price": null, "period": "usage" }
+      ],
+      "hasFreeTrial": false,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": true
+    },
+    "evaluation": {
+      "radarScore": 90,
+      "capability": 93,
+      "quality": 91,
+      "easeOfUse": 85,
+      "value": 87,
+      "reliability": 89,
+      "workflowFit": 92,
+      "innovation": 93
+    },
+    "platforms": ["windows", "macos", "linux"],
+    "released": "2025-02-24",
+    "lastUpdated": "2026-08-14",
+    "openSource": false,
+    "tags": ["agent", "terminal", "coding", "agentic", "anthropic"],
+    "pros": [
+      "Deep codebase understanding",
+      "Works in your existing terminal",
+      "Excellent at complex refactoring",
+      "Git-aware operations",
+      "Powered by Claude's reasoning"
+    ],
+    "cons": [
+      "Usage-based pricing can be expensive",
+      "Terminal-only interface",
+      "Requires API key setup",
+      "Still learning complex architectures"
+    ],
+    "useCases": [
+      { "name": "Large Refactoring", "rating": 5 },
+      { "name": "Bug Investigation", "rating": 5 },
+      { "name": "Code Review", "rating": 4 },
+      { "name": "New Feature Development", "rating": 4 },
+      { "name": "Documentation", "rating": 4 }
+    ],
+    "bestFor": ["Senior Developers", "Open Source Maintainers", "DevOps Engineers"],
+    "history": [
+      { "date": "2026-08-14", "event": "Multi-agent orchestration added" },
+      { "date": "2026-06-01", "event": "Background task support" },
+      { "date": "2026-03-15", "event": "VS Code extension launched" },
+      { "date": "2025-10-01", "event": "General availability" },
+      { "date": "2025-02-24", "event": "Research preview launched" }
+    ],
+    "alternatives": ["cursor", "devin", "github-copilot", "aider"],
+    "tested": true,
+    "featured": true,
+    "trending": true,
+    "trendingChange": 178
+  },
+  {
+    "id": "pika",
+    "name": "Pika",
+    "slug": "pika",
+    "url": "https://pika.art",
+    "description": "AI video creation platform focused on creative effects, transitions, and cinematic video generation from text and images.",
+    "shortDescription": "Creative AI video generation with cinematic effects",
+    "type": "AI Tool",
+    "categories": ["video"],
+    "professions": ["youtuber", "marketer", "designer"],
+    "tasks": ["video-production", "social-media", "effects", "transitions"],
+    "capabilities": {
+      "textToVideo": true,
+      "imageToVideo": true,
+      "videoToVideo": true,
+      "effects": true,
+      "lipSync": true,
+      "api": false,
+      "commercialUsage": true,
+      "localGeneration": false
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Standard", "price": 8, "period": "month" },
+        { "name": "Pro", "price": 28, "period": "month" },
+        { "name": "Unlimited", "price": 58, "period": "month" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": true,
+      "commercialRights": true,
+      "apiPricing": false
+    },
+    "evaluation": {
+      "radarScore": 82,
+      "capability": 84,
+      "quality": 80,
+      "easeOfUse": 90,
+      "value": 82,
+      "reliability": 78,
+      "workflowFit": 76,
+      "innovation": 85
+    },
+    "platforms": ["web", "ios"],
+    "released": "2023-06-28",
+    "lastUpdated": "2026-07-25",
+    "openSource": false,
+    "tags": ["video-generation", "effects", "creative", "social-media"],
+    "pros": [
+      "Creative effects and transitions",
+      "Good lip sync feature",
+      "User-friendly interface",
+      "Video-to-video transformations",
+      "Competitive pricing"
+    ],
+    "cons": [
+      "Lower quality than Runway",
+      "Short video length limits",
+      "Watermark on free tier",
+      "No API access",
+      "Occasional glitchy outputs"
+    ],
+    "useCases": [
+      { "name": "Social Media Shorts", "rating": 5 },
+      { "name": "Video Effects", "rating": 4 },
+      { "name": "Meme Generation", "rating": 4 },
+      { "name": "Music Videos", "rating": 3 },
+      { "name": "Product Demos", "rating": 3 }
+    ],
+    "bestFor": ["Social Media Creators", "Content Creators", "Hobbyists"],
+    "history": [
+      { "date": "2026-07-25", "event": "Pika 2.0 with improved quality" },
+      { "date": "2026-04-05", "event": "Lip sync feature added" },
+      { "date": "2026-01-10", "event": "Effects library expanded" },
+      { "date": "2025-04-01", "event": "Pika 1.5 launched" },
+      { "date": "2023-06-28", "event": "Public launch" }
+    ],
+    "alternatives": ["runway-gen3", "kling-ai", "luma-dream-machine"],
+    "tested": true,
+    "featured": false,
+    "trending": false,
+    "trendingChange": 4
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "slug": "gamma",
+    "url": "https://gamma.app",
+    "description": "AI presentation and document creator that generates polished slides, websites, and documents from text prompts.",
+    "shortDescription": "AI-powered presentation and document creator",
+    "type": "AI Tool",
+    "categories": ["presentation", "design", "writing"],
+    "professions": ["marketer", "teacher", "student", "business-owner"],
+    "tasks": ["presentations", "pitch-decks", "reports", "websites"],
+    "capabilities": {
+      "textToPresentation": true,
+      "textToDocument": true,
+      "textToWebsite": true,
+      "templateLibrary": true,
+      "imageGeneration": true,
+      "collaboration": true,
+      "api": false,
+      "commercialUsage": true,
+      "export": true
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Plus", "price": 10, "period": "month" },
+        { "name": "Pro", "price": 20, "period": "month" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": true,
+      "commercialRights": true,
+      "apiPricing": false
+    },
+    "evaluation": {
+      "radarScore": 84,
+      "capability": 82,
+      "quality": 85,
+      "easeOfUse": 95,
+      "value": 88,
+      "reliability": 82,
+      "workflowFit": 84,
+      "innovation": 80
+    },
+    "platforms": ["web"],
+    "released": "2023-03-01",
+    "lastUpdated": "2026-07-18",
+    "openSource": false,
+    "tags": ["presentation", "slides", "documents", "ai-design", "business"],
+    "pros": [
+      "Beautiful presentations in seconds",
+      "No design skills needed",
+      "Built-in image generation",
+      "Export to PDF, PPTX",
+      "Collaborative editing"
+    ],
+    "cons": [
+      "Limited customization depth",
+      "Watermark on free tier",
+      "Templates can feel generic",
+      "No offline mode"
+    ],
+    "useCases": [
+      { "name": "Pitch Decks", "rating": 5 },
+      { "name": "Class Presentations", "rating": 5 },
+      { "name": "Company Reports", "rating": 4 },
+      { "name": "One-Pagers", "rating": 5 },
+      { "name": "Marketing Decks", "rating": 4 }
+    ],
+    "bestFor": ["Business Professionals", "Students", "Teachers", "Startups"],
+    "history": [
+      { "date": "2026-07-18", "event": "Website builder feature launched" },
+      { "date": "2026-03-01", "event": "AI redesign tool added" },
+      { "date": "2025-09-01", "event": "Presentation analytics" },
+      { "date": "2025-01-15", "event": "Team workspaces launched" },
+      { "date": "2023-03-01", "event": "Public launch" }
+    ],
+    "alternatives": ["beautiful-ai", "tome", "canva-ai"],
+    "tested": false,
+    "featured": false,
+    "trending": false,
+    "trendingChange": 6
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "slug": "windsurf",
+    "url": "https://codeium.com/windsurf",
+    "description": "AI-powered code editor by Codeium with deep agentic coding capabilities and a focus on developer workflow.",
+    "shortDescription": "Agentic AI code editor with deep workflow integration",
+    "type": "AI Tool",
+    "categories": ["coding"],
+    "professions": ["programmer", "engineer"],
+    "tasks": ["programming", "debugging", "code-review", "refactoring"],
+    "capabilities": {
+      "codeGeneration": true,
+      "codeCompletion": true,
+      "agenticCoding": true,
+      "multiFile": true,
+      "codebaseContext": true,
+      "terminalIntegration": true,
+      "api": false,
+      "commercialUsage": true,
+      "localGeneration": false
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Pro", "price": 15, "period": "month" },
+        { "name": "Teams", "price": 35, "period": "month" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": false
+    },
+    "evaluation": {
+      "radarScore": 86,
+      "capability": 88,
+      "quality": 85,
+      "easeOfUse": 90,
+      "value": 89,
+      "reliability": 83,
+      "workflowFit": 86,
+      "innovation": 85
+    },
+    "platforms": ["windows", "macos", "linux"],
+    "released": "2024-11-13",
+    "lastUpdated": "2026-08-10",
+    "openSource": false,
+    "tags": ["coding", "ide", "agent", "developer-tools", "codeium"],
+    "pros": [
+      "Strong agentic coding features",
+      "Competitive pricing",
+      "Good free tier",
+      "Cascade multi-step flows",
+      "Fast code completion"
+    ],
+    "cons": [
+      "Newer product, less mature",
+      "Smaller community than Cursor",
+      "Occasional context issues",
+      "Extension ecosystem still growing"
+    ],
+    "useCases": [
+      { "name": "Daily Development", "rating": 5 },
+      { "name": "Multi-File Refactoring", "rating": 4 },
+      { "name": "Rapid Prototyping", "rating": 4 },
+      { "name": "Learning New Codebases", "rating": 4 },
+      { "name": "Code Review", "rating": 3 }
+    ],
+    "bestFor": ["Developers", "Freelancers", "Small Teams"],
+    "history": [
+      { "date": "2026-08-10", "event": "Windsurf 2.0 released" },
+      { "date": "2026-05-01", "event": "Background agents added" },
+      { "date": "2026-02-15", "event": "Multi-model support" },
+      { "date": "2025-06-01", "event": "Team features launched" },
+      { "date": "2024-11-13", "event": "Windsurf launched" }
+    ],
+    "alternatives": ["cursor", "github-copilot", "zed"],
+    "tested": true,
+    "featured": false,
+    "trending": false,
+    "trendingChange": 28
+  },
+  {
+    "id": "meshy",
+    "name": "Meshy",
+    "slug": "meshy",
+    "url": "https://meshy.ai",
+    "description": "AI 3D model generator that creates textured 3D assets from text prompts and images for games, AR/VR, and design.",
+    "shortDescription": "AI-powered 3D model generation from text and images",
+    "type": "AI Tool",
+    "categories": ["3d", "image"],
+    "professions": ["game-developer", "designer", "architect"],
+    "tasks": ["3d-modeling", "game-assets", "prototyping", "texture-generation"],
+    "capabilities": {
+      "textTo3D": true,
+      "imageTo3D": true,
+      "textureGeneration": true,
+      "pbrMaterials": true,
+      "exportFormats": true,
+      "api": true,
+      "commercialUsage": true,
+      "localGeneration": false
+    },
+    "pricing": {
+      "model": "freemium",
+      "freeTier": true,
+      "plans": [
+        { "name": "Free", "price": 0, "period": "month" },
+        { "name": "Pro", "price": 20, "period": "month" },
+        { "name": "Max", "price": 60, "period": "month" },
+        { "name": "Enterprise", "price": null, "period": "month" }
+      ],
+      "hasFreeTrial": true,
+      "hasWatermark": false,
+      "commercialRights": true,
+      "apiPricing": true
+    },
+    "evaluation": {
+      "radarScore": 81,
+      "capability": 83,
+      "quality": 78,
+      "easeOfUse": 89,
+      "value": 82,
+      "reliability": 76,
+      "workflowFit": 80,
+      "innovation": 85
+    },
+    "platforms": ["web"],
+    "released": "2023-04-15",
+    "lastUpdated": "2026-07-20",
+    "openSource": false,
+    "tags": ["3d", "game-assets", "modeling", "textures", "ar-vr"],
+    "pros": [
+      "Quick 3D asset generation",
+      "Good PBR material support",
+      "Multiple export formats (FBX, OBJ, GLB)",
+      "Image-to-3D is impressive",
+      "API for pipeline integration"
+    ],
+    "cons": [
+      "Mesh quality needs manual cleanup",
+      "Complex models are hit-or-miss",
+      "Topology not game-ready",
+      "Limited animation support"
+    ],
+    "useCases": [
+      { "name": "Game Prototyping", "rating": 4 },
+      { "name": "Concept Visualization", "rating": 5 },
+      { "name": "AR/VR Assets", "rating": 3 },
+      { "name": "Architectural Visualization", "rating": 3 },
+      { "name": "3D Printing Models", "rating": 3 }
+    ],
+    "bestFor": ["Game Developers", "3D Artists", "Product Designers", "Architects"],
+    "history": [
+      { "date": "2026-07-20", "event": "Meshy 4 model released" },
+      { "date": "2026-04-01", "event": "PBR texture improvements" },
+      { "date": "2025-12-01", "event": "Image-to-3D V2 launched" },
+      { "date": "2025-05-15", "event": "API released" },
+      { "date": "2023-04-15", "event": "Public launch" }
+    ],
+    "alternatives": ["tripo-ai", "luma-genie", "3d-ai-studio"],
+    "tested": true,
+    "featured": false,
+    "trending": false,
+    "trendingChange": 14
+  }
+]
